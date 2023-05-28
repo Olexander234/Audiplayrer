@@ -1,0 +1,64 @@
+body{
+    
+    background-image: url("./img/ультра-hd-фон.jpg");
+    background-size: cover;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+    .card-1 {
+        background: linear-gradient( to left top, #deaa0f, #515552, #532292); /* градієнт */
+        width: 350px; /* ширина */
+        height: 400px; /* висота */
+        display: inline-block; /*щоб вони  стали в одну лінію*/
+        padding-top: 30px; /* внутришній відступ зверху*/
+        border-radius: 20px; /* закруглює угли*/
+        margin-left: 300px;
+        margin-top: 100px;
+        /* коментар alt + shift + a */
+        }
+
+    .card-2{
+        background: linear-gradient( to left top,#532292, #515552, #deaa0f) ; /* градієнт */
+        width: 350px; /* ширина */
+        height: 400px; /* висота */
+        display: inline-block; /*щоб вони  стали в одну лінію*/
+        padding-top: 30px; /* внутришній відступ зверху*/
+        border-radius: 20px; /* закруглює угли*/
+        margin-left: 50px;
+        /* коментар alt + shift + a */
+    }   
+
+        .card-1_img {
+        width: 200px;
+        
+
+        
+        }
+        .card-1_name {
+         margin: 30px 0;
+         color: white;
+        font-size: 20px;
+        font-family: 'Permanent Marker', cursive;
+        }
+        
+        .card-2_img {
+            width: 200px;
+
+        }
+        .card-2_name {
+            margin: 30px 0;
+            color: white;
+        font-size: 20px;
+        font-family: 'Permanent Marker', cursive;
+        
+        }
+        
+        
